@@ -1,4 +1,4 @@
-package com.evilmidget38;
+package evilmidget38;
 
 import java.io.InputStreamReader;
 import java.io.OutputStream;

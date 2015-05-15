@@ -1,0 +1,25 @@
+name: SignChestShopReborn
+main: com.me.Funnygatt.signchestshop.SignChestShopPlugin
+version: 2.0
+author: Funnygatt
+description: Sign Chest Shop Reborn. Reborn by Funnygatt.
+depend: [Vault]
+commands:
+    signchestshop:
+         description: SignChestShop commands
+         usage: /signchestshop <args>
+         aliases: [scs]
+permissions:
+    scs.admin:
+        description: Grants access to administrative SignChestShopReborn commands
+        children:
+            scs.bypass.*: true
+    scs.bypass.*:
+        description: Grants all bypass permissions
+        children:
+            scs.bypass.storage: true
+            scs.bypass.edit: true
+            scs.bypass.break: true
+            scs.bypass.settitle: true
+            scs.bypass.setmode: true
+            scs.bypass.price: true

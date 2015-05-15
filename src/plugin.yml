@@ -1,8 +1,8 @@
-name: SignChestShop
-main: co.technius.signchestshop.SignChestShopPlugin
-version: 1.3.8
-author: obnoxint
-authors: [Technius]
+name: SignChestShopReborn
+main: com.me.Funnygatt.signchestshop.SignChestShopPlugin
+version: 2.0
+author: Funnygatt
+description: Sign Chest Shop Reborn. Reborn by Funnygatt.
 depend: [Vault]
 commands:
     signchestshop:
@@ -11,7 +11,7 @@ commands:
          aliases: [scs]
 permissions:
     scs.admin:
-        description: Grants access to administrative SignChestShop commands
+        description: Grants access to administrative SignChestShopReborn commands
         children:
             scs.bypass.*: true
     scs.bypass.*:

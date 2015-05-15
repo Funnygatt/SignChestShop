@@ -1,4 +1,4 @@
-package co.technius.signchestshop.util;
+package com.me.Funnygatt.signchestshop.util;
 
 import java.util.ArrayList;
 import java.util.Map;
@@ -11,7 +11,7 @@ import java.util.concurrent.Future;
 import org.bukkit.Bukkit;
 import org.bukkit.OfflinePlayer;
 
-import com.evilmidget38.UUIDFetcher;
+import evilmidget38.UUIDFetcher;
 
 public class UUIDUtil
 {
